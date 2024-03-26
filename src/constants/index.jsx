@@ -26,10 +26,8 @@ import { BiWorld } from "react-icons/bi";
 import { FaCheck } from "react-icons/fa6";
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "About", href: "/about" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export const testimonials = [
