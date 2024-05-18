@@ -103,7 +103,7 @@ const About = () => {
             src={logo}
             alt=""
             srcset=""
-            className="w-[30%] h-[30%] rounded-md mr-8"
+            className="hidden w-[30%] h-[30%]  rounded-md mr-8 md:block"
           />
 
           <div>
@@ -145,7 +145,7 @@ const About = () => {
             src={community_2}
             alt=""
             srcset=""
-            className="w-[50%] h-[50%] rounded-md mr-8"
+            className="hidden w-[50%] h-[50%]  rounded-md mr-8 md:block"
           />
         </div>
 
@@ -154,7 +154,7 @@ const About = () => {
             src={community_3}
             alt=""
             srcset=""
-            className="w-[30%] h-[30%] rounded-md mr-8"
+            className="hidden w-[30%] h-[30%]  rounded-md mr-8 md:block"
           />
 
           <div>
