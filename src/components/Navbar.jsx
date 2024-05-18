@@ -1,6 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo1.png";
 import { navItems } from "../constants";
 import { Link } from "react-router-dom";
 
@@ -16,13 +16,13 @@ const Navbar = () => {
       <div className="container px-4 mx-auto relative lg:text-sm">
         <div className="flex justify-between items-center">
           <Link to={"/"} className="flex items-center flex-shrink-0">
-            <img className="h-10 w-10 mr-2" src={logo} alt="Logo" />
-            <span className="text-xl tracking-tight">DUI</span>
+            <img className="h-[80px] w-auto mr-2" src={logo} alt="Logo" />
+            {/* <span className="text-xl tracking-tight">DIU</span> */}
           </Link>
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
               <li key={index}>
-                <a href={item.href}>{item.label}</a>
+                <Link to={item.href}>{item.label}</Link>
               </li>
             ))}
           </ul>

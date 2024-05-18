@@ -1,11 +1,13 @@
 import React from "react";
-
+import logo from "../assets/community_1.jpg";
+import community_2 from "../assets/community_2.jpg";
+import community_3 from "../assets/community_3.jpg";
 const About = () => {
   return (
     <div className="max-w-7xl mx-auto pt-20 px-6">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide mb-8">
         About
-        <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
+        <span className="bg-gradient-to-r from-[#9a6680] to-[#641937] text-transparent bg-clip-text">
           {" "}
           Edwin Maine & DIU
         </span>
@@ -91,6 +93,94 @@ const About = () => {
           emerging fraud trends further cement our position as a versatile and
           reliable choice in the field.
         </p>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="text-2xl font-semibold mb-4">Community Work</h2>
+
+        <div className="w-full items-center flex">
+          <img
+            src={logo}
+            alt=""
+            srcset=""
+            className="w-[30%] h-[30%] rounded-md mr-8"
+          />
+
+          <div>
+            <p className="text-md text-gray-400">
+              {" "}
+              As a dedicated member of our community, I am deeply committed to
+              fostering positive change and resilience through ongoing volunteer
+              efforts and local initiatives. Over the past several years, I have
+              been instrumental in organizing and leading numerous community
+              projects that focus on environmental sustainability, food
+              security, and support for vulnerable populations. My commitment to
+              environmental stewardship is demonstrated through my coordination
+              of monthly community clean-up events along our local riverbanks
+              and parks. These initiatives have not only contributed to the
+              aesthetic enhancement of our natural landscapes but have also
+              educated the community about the importance of environmental
+              responsibility.
+            </p>
+          </div>
+        </div>
+        <div className="w-full items-center flex my-8">
+          <div>
+            <p className="text-md text-gray-400">
+              {" "}
+              We have successfully removed tons of waste and recyclables,
+              reducing the local ecological footprint and promoting
+              sustainability. In addressing food insecurity, I have partnered
+              with the Community Food Bank to spearhead quarterly food drives
+              that have substantially increased the availability of nutritious
+              food for underserved families. These drives have collectively
+              gathered over 10,000 pounds of food annually, ensuring that
+              hundreds of families have access to essential nutritional
+              resources. My role extends beyond organizing as I also participate
+              in the sorting and distribution processes, ensuring that the aid
+              reaches those in need efficiently and respectfully.
+            </p>
+          </div>
+          <img
+            src={community_2}
+            alt=""
+            srcset=""
+            className="w-[50%] h-[50%] rounded-md mr-8"
+          />
+        </div>
+
+        <div className="w-full items-center flex">
+          <img
+            src={community_3}
+            alt=""
+            srcset=""
+            className="w-[30%] h-[30%] rounded-md mr-8"
+          />
+
+          <div>
+            <p className="text-md text-gray-400">
+              {" "}
+              At the Downtown Shelter, I serve as a volunteer coordinator, where
+              I oversee the scheduling and activities of volunteers who assist
+              in meal preparation and distribution for homeless individuals.
+              This involvement has not only provided me with insights into the
+              challenges faced by these individuals but has also allowed me to
+              contribute directly to improving their daily lives through support
+              and resource provision. Moreover, I have facilitated workshops and
+              seminars aimed at empowering residents with skills in financial
+              literacy, health education, and job readiness, reflecting my
+              commitment to holistic community development. These workshops
+              serve as a platform for individuals to gain valuable skills that
+              enhance their employability and overall quality of life. My
+              passion for community service is driven by a belief in the
+              transformative power of collective action. By continuing to engage
+              in these vital activities, I am eager to explore further avenues
+              for impact and to inspire others in our community to join in these
+              efforts, ensuring a brighter and more sustainable future for all.
+            </p>
+          </div>
+        </div>
+        <p className="text-md text-gray-400"></p>
       </section>
     </div>
   );
